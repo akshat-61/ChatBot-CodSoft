@@ -17,9 +17,9 @@ responses = {
 }
 
 def get_response(user_input):
-    user_input = user_input.lower()  # Make input lowercase for better matching
+    user_input = user_input.lower()  
+    for better matching
     
-    # Check for each predefined response
     for key in responses:
         if re.search(r'\b' + re.escape(key) + r'\b', user_input):
             return responses[key]
