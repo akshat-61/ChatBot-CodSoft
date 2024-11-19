@@ -13,7 +13,7 @@ responses = {
     "Akshat": "Hello Akshat! How are you?",
     "Good": "Sounds good! So what's on your mind?",
     "Bad": "Anything you would like to share?",
-    "default": "Hello! How do you do? /n What is your name?"
+    "default": "Hello! How do you do? \n What is your name?"
 }
 
 def get_response(user_input):
